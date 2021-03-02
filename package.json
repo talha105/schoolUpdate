@@ -1,0 +1,49 @@
+{
+  "main": "node_modules/expo/AppEntry.js",
+  "scripts": {
+    "start": "expo start",
+    "android": "expo start --android",
+    "ios": "expo start --ios",
+    "web": "expo start --web",
+    "eject": "expo eject"
+  },
+  "dependencies": {
+    "@expo-google-fonts/inter": "^0.1.0",
+    "@expo/vector-icons": "^10.0.0",
+    "@react-native-async-storage/async-storage": "^1.14.1",
+    "@react-native-community/masked-view": "0.1.10",
+    "@react-navigation/native": "^5.8.9",
+    "@react-navigation/stack": "^5.12.6",
+    "axios": "^0.21.0",
+    "expo": "~39.0.2",
+    "expo-constants": "~9.2.0",
+    "expo-file-system": "^9.2.0",
+    "expo-font": "~8.3.0",
+    "expo-notifications": "~0.7.2",
+    "expo-status-bar": "~1.0.2",
+    "moment": "^2.29.1",
+    "native-base": "^2.13.14",
+    "react": "16.13.1",
+    "react-dom": "16.13.1",
+    "react-native": "https://github.com/expo/react-native/archive/sdk-39.0.4.tar.gz",
+    "react-native-customize-selected-date": "^1.0.1",
+    "react-native-gesture-handler": "~1.7.0",
+    "react-native-reanimated": "~1.13.0",
+    "react-native-safe-area-context": "3.1.4",
+    "react-native-screens": "~2.10.1",
+    "react-native-table-component": "^1.2.1",
+    "react-native-timetable": "^1.0.4",
+    "react-native-vector-icons": "^7.1.0",
+    "react-native-web": "~0.13.12",
+    "react-native-webview": "^10.10.2",
+    "react-redux": "^7.2.2",
+    "react-router-native": "^5.2.0",
+    "redux": "^4.0.5",
+    "redux-form": "^8.3.6",
+    "redux-thunk": "^2.3.0"
+  },
+  "devDependencies": {
+    "@babel/core": "~7.9.0"
+  },
+  "private": true
+}
