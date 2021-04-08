@@ -62,6 +62,7 @@ export const getToken=()=>async(dispatch)=>{
 
 export const logOut=()=>async(dispatch)=>{
     await Asyncstorage.removeItem('UserToken');
+    await Asyncstorage.removeItem('pushToken')
     dispatch({
         type:EMPTY_TOKEN,
         payload:null
@@ -69,6 +70,8 @@ export const logOut=()=>async(dispatch)=>{
 }
 
 export const saveToken=(userId,token)=>async(dispatch)=>{
+
+    console.log("token",token)
 
     const tokenRes=await axios.post(sendNot,{
         User_Id:userId,

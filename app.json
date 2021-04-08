@@ -22,7 +22,8 @@
       "supportsTablet": true
     },
     "android": {
-      "permissions":[],
+      "googleServicesFile": "./google-services.json",
+      "useNextNotificationsApi": true,
       "package": "com.talha.schoolApp",
       "versionCode": 1,
       "adaptiveIcon": {

@@ -51,6 +51,7 @@ Notifications.setNotificationHandler({
         return;
       }
       token = (await Notifications.getExpoPushTokenAsync()).data;
+      console.log(token)
       this.props.saveToken(this.props.currentUser.UserInfo.User_Id,token).then(async()=>{
         await Asyncstorage.setItem('pushToken',token);
       })
